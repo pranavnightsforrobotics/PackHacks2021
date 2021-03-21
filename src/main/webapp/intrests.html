@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="styles2.css">
+        <title>LinkedOut</title>
+    </head>
+    <body id="home-background">
+        <ul id="navigation-bar">
+            <li class="nav-item"><a class="nav-link" id="item1" href="index.html">Student Connector</a></li>
+            <li class="nav-item"><a class="nav-link" id="item2" href="you.html">You</a></li>
+            <li class="nav-item"><a class="nav-link" id="item3" href="people.jsp">People</a></li>
+            <li class="nav-item"><a class="nav-link" id="item4" href="explore.jsp">Explore</a></li>
+        </ul>
+        <p id=intrestsPageTitle>Intrests</p>
+        <p id=allIntrestsTitle>All Avilable Intrests</p>
+        <div id=allIntrestsContainer>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Math', 3)">Math 3</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Physics', 2)">Physics 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Engineering', 2)">Engineering 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Economics', 2)">Economics 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Chemistry', 1)">Chemistry 1</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Biology', 2)">Biology 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Science', 3)">Science 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Chemistry', 2)">Chemistry 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Physics', 2)">Physics 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Engineering', 2)">Engineering 1</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Psychology', 1)">Psychology 3</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Space', 2)">Space 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('English', 2)">English</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Chinese', 2)">Chinese 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Hindi', 2)">Hindi 1</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Spanish', 2)">Spanish 3</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Linguistics', 2)">Linguistics 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Economics', 1)">Economics 1</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Psychology', 2)">Psychology 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Linguistics', 2)">Linguistics 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('History', 3)">History 3</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Archaeology', 2)">Archaeology 2</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Politics', 3)">Politics 3</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Basketball', 3)">Basketball 3</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Soccer', 3)">Soccer 3</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Lacrosse', 3)">Lacrosse 3</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Football', 3)">Football 3</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Baseball', 3)">Baseball 3</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Tennis', 3)">Tennis 3</button>
+            <button type="button" class="allIntrestsButtons" onclick="rand('Tennis', 3)">Swimming 3</button>
+        </div>
+            
+        <p id=currentIntrestsTitle>Currently Held Intrests</p>
+        <div id=allCurrentIntrestsContainer>
+            <p id="currentIntrestsOutput"></p>
+        </div>
+        <script>
+            var contained = "";
+            function rand(Subject, Level){
+                contained = contained + ", " + Subject + " " + Level;
+                document.getElementById("currentIntrestsOutput").innerHTML = contained;
+            }
+
+        </script>
+    
+                    
+
+
+
+
+    </body>
+</html>

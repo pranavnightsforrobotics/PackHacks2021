@@ -1,0 +1,981 @@
+#home-background{
+    position: relative;
+    background-color: #EEE5E9;
+
+}
+
+#navigation-bar{
+    position: absolute;
+    width: 1440px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    border: 5px solid #454ADE;
+    background: #1B1F3B;
+}
+
+
+
+.nav-item .nav-link {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-decoration: none;
+    color: #EEE5E9;
+}
+
+#item1{
+    position: absolute;
+    width: 97px;
+    height: 42px;
+    left: 97px;
+    top: 16px;
+}
+
+#item1:hover{
+    color: #ffffff;
+}
+
+#item2{
+    position: absolute;
+    width: 61px;
+    height: 42px;
+    left: 469px;
+    top: 34px;
+}
+
+#item2:hover{
+    color: #ffffff;
+}
+
+#item3{
+    position: absolute;
+    width: 111px;
+    height: 42px;
+    left: 792px;
+    top: 34px;
+}
+
+#item3:hover{
+    color: #ffffff;
+}
+
+#item4{
+    position: absolute;
+    width: 119px;
+    height: 42px;
+    left: 1165px;
+    top: 34px;
+}
+
+#item4:hover{
+    color: #ffffff;
+}
+
+#calender-rectangle{
+    position: absolute;
+    width: 1000px;
+    height: 750px;
+    left: 43px;
+    top: 206px;
+
+    background: #1B1F3B;
+}
+
+#calender{
+    position: absolute;
+    width: 900px;
+    height: 650px;
+    left: 50px;
+    top: 50px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 117px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EEE5E9;
+}
+
+#notifications{
+    position: absolute;
+    width: 322px;
+    height: 110px;
+    left: 1076px;
+    top: 201px;
+
+    background: #1B1F3B;
+}
+
+#text-notifications{
+    position: absolute;
+    width: 322px;
+    height: 55px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #EEE5E9;
+}
+
+#contacts-input{
+    position: absolute;
+    width: 717px;
+    height: 85px;
+    left: 181px;
+    top: 186px;
+    font-family: 'Montserrat', sans-serif;
+    background: #1B1F3B;
+    border-radius: 15px;   
+    font-size: 48px;
+    line-height: 75px; 
+    font-style: normal;
+    font-weight: normal;
+    color: #EEE5E9;
+}
+
+#contacts{
+    border-collapse: collapse;
+    position: absolute;
+    width: 1306px;
+    left: 55px;
+    top: 398px;
+    background: #1B1F3B;
+    border: 1px solid #ddd; 
+    color:#EEE5E9;
+    font-size: 48px;
+}
+
+#contacts th, #contacts tr{
+    text-align: right; 
+    padding: 15px; 
+    border: 1px solid #ddd;
+    height: 72px;
+}
+
+#contacts td{
+    border: 1px solid #ddd;
+}
+
+.duoImg{
+    width: 72px;
+    height: 72px;  
+    left: 1224px;
+    background: rgba(238, 229, 233); 
+}
+
+.mailImg{
+    width: 72px;
+    height: 72px;  
+    left: 1224px;
+    background: rgba(238, 229, 233); 
+}
+
+.chatImg{
+    width: 72px;
+    height: 72px;  
+    left: 1224px;
+    background: rgba(238, 229, 233); 
+}
+
+#notification1{
+    position: absolute;
+    width: 310px;
+    height: 74px;
+    left: 1082px;
+    top: 320px;
+
+    background: #B14AED;
+    border-radius: 15px;
+}
+
+#notification-text-answers-1{
+    position: absolute;
+    width: 275px;
+    height: 39px;
+    left: 20px;
+    top: 10px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #EEE5E9;
+}
+
+#notification2{
+    position: absolute;
+    width: 311px;
+    height: 74px;
+    left: 1082px;
+    top: 427px;
+    
+    background: #B14AED;
+    border-radius: 15px;
+}
+
+#notification-text-answers-2{
+    position: absolute;
+    width: 261px;
+    height: 54px;
+    left: 20px;
+    top: 2px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #EEE5E9;
+}
+
+#notification3{
+    position: absolute;
+    width: 311px;
+    height: 74px;
+    left: 1082px;
+    top: 537px;
+    
+    background: #B14AED;
+    border-radius: 15px;
+}
+
+#notification-text-answers-3{
+    position: absolute;
+    width: 266px;
+    height: 46px;
+    left: 20px;
+    top: 2px;
+    
+    font-family:'Montserrat', sans-serif; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #EEE5E9;
+}
+
+#notification4{
+    position: absolute;
+    width: 311px;
+    height: 74px;
+    left: 1082px;
+    top: 640px;
+    
+    background: #B14AED;
+    border-radius: 15px;
+}
+
+#notification-text-answers-4{
+    position: absolute;
+    width: 269px;
+    height: 34px;
+    left: 22px;
+    top: 3px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #EEE5E9;
+}
+
+#notification5{
+    position: absolute;
+    width: 311px;
+    height: 74px;
+    left: 1082px;
+    top: 749px;
+    
+    background: #B14AED;
+    border-radius: 15px;
+}
+
+#notification-text-answers-5{
+    position: absolute;
+    width: 247px;
+    height: 56px;
+    left: 23px;
+    top: 0px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #EEE5E9;
+}
+
+#profileBackground{
+    position: absolute;
+    width: 1054px;
+    height: 2250px;
+    left: 193px;
+    top: 292px;
+    
+    background: #1B1F3B;
+    border-radius: 13px;
+}
+
+#ignoreButton{
+    position: absolute;
+    width: 179px;
+    display: flex;
+    height: 157px;
+    left: 75px;
+    top: 367px;
+    display: flex;
+}
+
+#ignoreButtonText{
+    position: absolute;
+    width: 199px;
+    height: 159px;
+    left: -6px;
+    top: 477px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #B14AED;
+}
+
+#addContactButtonText{
+    position: absolute;
+    width: 199px;
+    height: 159px;
+    left: 1251px;
+    top: 477px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #B14AED;
+}
+
+#addContactButton{
+    position: absolute;
+    width: 179px;
+    display: flex;
+    height: 157px;
+    left: 1330px;
+    top: 367px;
+    display: flex;
+    
+}
+
+#profileTitle{
+    position: absolute;
+    width: 582px;
+    height: 122px;
+    left: 350px;
+    top: 30px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EEE5E9;
+}
+
+#profileAge{
+    position: absolute;
+    width: 582px;
+    height: 122px;
+    left: 470px;
+    top: 130px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #B14AED;
+    
+}
+
+#profileEducation{
+    position: absolute;
+    width: 600px;
+    height: 190px;
+    left: 245px;
+    top: 230px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    
+    color: #EEE5E9;
+    
+}
+
+#profileJob{
+    position: absolute;
+    width: 582px;
+    height: 122px;
+    left: 330px;
+    top: 330px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    
+    color: #EEE5E9;
+}
+
+#profileImage{
+    position: absolute;
+    width: 791px;
+    height: 649px;
+    left: 115px;
+    top: 450px;
+}
+
+#bioTitle{
+    position: absolute;
+    width: 340px;
+    height: 68px;
+    left: 100px;
+    top: 1080px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    
+    color: #B14AED;
+}
+
+#bioText{
+    position: absolute;
+    width: 749px;
+    height: 177px;
+    left: 150px;
+    top: 1150px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #EEE5E9;
+}
+
+#skillsTitle{
+    position: absolute;
+    width: 340px;
+    height: 68px;
+    left: 100px;
+    top: 1310px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    
+    color: #B14AED;
+}
+
+#skillsText{
+    position: absolute;
+    width: 749px;
+    height: 177px;
+    left: 150px;
+    top: 1390px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #EEE5E9;
+}
+
+#intrestsTitle{
+    position: absolute;
+    width: 340px;
+    height: 68px;
+    left: 100px;
+    top: 1570px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    
+    color: #B14AED;
+}
+
+#intrest1{
+    position: absolute;
+    width: 316px;
+    height: 75px;
+    left: 200px;
+    top: 1700px;
+    
+    background: #EEE5E9;
+    border-radius: 30px;
+}
+
+#intrestText1{
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    left: 80px;
+    bottom: -35px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #B14AED;
+}
+
+#intrest2{
+    position: absolute;
+    width: 316px;
+    height: 75px;
+    left: 600px;
+    top: 1700px;
+    
+    background: #EEE5E9;
+    border-radius: 30px;
+}
+
+#intrestText2{
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    left: 20px;
+    top: -35px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #B14AED;
+    
+}
+
+#intrest3{
+    position: absolute;
+    width: 316px;
+    height: 75px;
+    left: 400px;
+    top: 1850px;
+    
+    background: #EEE5E9;
+    border-radius: 30px;
+}
+
+#intrestText3{
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    left: 62px;
+    top: -35px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #B14AED;
+}
+
+#moreInfoTitle{
+    position: absolute;
+    width: 340px;
+    height: 68px;
+    left: 100px;
+    top: 1900px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    
+    color: #B14AED;
+}
+
+#moreInfoText{
+    position: absolute;
+    width: 850px;
+    height: 200px;
+    left: 130px;
+    top: 1975px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #EEE5E9;
+}
+
+#youProfileTitle{
+    position: absolute;
+    width: 236px;
+    height: 88px;
+    left: 30px;
+    top: -30px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 88px;
+    
+    
+    color: #EEE5E9;
+}
+
+#youProfileName{
+    position: absolute;
+    width: 500px;
+    height: 88px;
+    left: 30px;
+    top: 90px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 44px;
+    
+    
+    color: #EEE5E9;
+}
+
+#youProfileAge{
+    position: absolute;
+    width: 236px;
+    height: 88px;
+    left: 30px;
+    top: 150px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 44px;
+    
+    
+    color: #EEE5E9;
+}
+
+#youProfileBio{
+    position: absolute;
+    width: 1200px;
+    height: 88px;
+    left: 30px;
+    top: 250px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+    
+    
+    color: #EEE5E9;
+}
+
+#youProfileSkills{
+    position: absolute;
+    width: 1200px;
+    height: 88px;
+    left: 30px;
+    top: 350px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 44px;
+    
+    
+    color: #EEE5E9;
+}
+
+#youProfileIntrests{
+    position: absolute;
+    width: 1200px;
+    height: 88px;
+    left: 30px;
+    top: 400px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 44px;
+    
+    
+    color: #EEE5E9;
+}
+
+#youProfileEducation{
+    position: absolute;
+    width: 1200px;
+    height: 88px;
+    left: 30px;
+    top: 450px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 44px;
+    
+    
+    color: #EEE5E9;
+}
+
+#youProfileWorkplace{
+    position: absolute;
+    width: 1200px;
+    height: 88px;
+    left: 30px;
+    top: 500px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 44px;
+    
+    
+    color: #EEE5E9;
+}
+
+#youProfileMoreInfo{
+    position: absolute;
+    width: 1200px;
+    height: 88px;
+    left: 30px;
+    top: 550px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 44px;
+    
+    
+    color: #EEE5E9;
+}
+
+#youProfileImg{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 0px;
+    top: 0px;
+    
+    background: #1B1F3B;
+    border-radius: 13px;  
+}
+
+#youProfileBackground{
+    position: absolute;
+    width: 1300px;
+    height: 780px;
+    left: 100px;
+    top: 150px;
+    
+    background: #1B1F3B;
+    border-radius: 13px;
+}
+
+#youIntrestsHyperlink{
+    position: absolute;
+    width: 1200px;
+    height: 88px;
+    left: 30px;
+    top: 680px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 44px;
+    
+    
+    color: #93DCE5;
+}
+
+#ok{
+    position: absolute;
+    left: 30px;
+    top: 200px;
+}
+
+#intrestsPageTitle{
+    position: absolute;
+    width: 425px;
+    height: 117px;
+    left: 85px;
+    top: 190px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 117px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+}
+
+#allIntrestsTitle{
+    position: absolute;
+    width: 443px;
+    height: 88px;
+    left: 90px;
+    top: 400px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #000000;
+}
+
+#allIntrestsContainer{
+    position: absolute;
+    width: 1112px;
+    height: 686px;
+    left: 155px;
+    top: 606px;
+    
+    background: #C4C4C4;
+    border-radius: 13px;
+}
+
+.allIntrestsButtons{
+    width: 213px;
+    height: 50px;
+    padding: 50px;
+    
+    background: #B14AED;
+    border-radius: 13px;
+}
+
+#currentIntrestsTitle{
+    position: absolute;
+    width: 257px;
+    height: 88px;
+    left: 108px;
+    top: 1449px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #000000;
+}
+
+#currentIntrestsOutput{
+    position: absolute;
+    width: 1272px;
+    height: 172px;
+    left: 282px;
+    top: 1562px;
+    
+    background: #C4C4C4;
+    border-radius: 13px;
+}
+

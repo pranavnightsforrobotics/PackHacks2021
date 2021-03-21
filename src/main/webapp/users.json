@@ -1,0 +1,54 @@
+[
+	{
+		"userID": "43jkl2k3n3",
+		"name": "Joel Clark",
+		"image": "",
+		"age": 16,
+		"bio": "Hey y誕ll My name is Joel, and I知 super excited to find like minded people",
+		"skills": "Can program in Java and JavaScript, can type at 100 WPM, CAD god",
+		"interests": ["Space", "Engineering", "Physics"],
+		"education": "Cambodia High School",
+		"workplace": "Shoprite clerk",
+		"friends": ["Timothy Jackson", "Helium Jose", "Brenda Martin", "Jacquavius Coolidge", "Keshaw Lenning", "Maurice Tobias"],
+		"more info": "I知 a sophomore in high school looking to branch out and find more information about how to explore my interests in high school."
+	},
+	{
+		"userID": "kl34m02vby",
+		"name": "Melissa Davis",
+		"image": "",
+		"age": 19,
+		"bio": "Hi everyone, I知 Melissa and I知 looking to meet some people in the workforce to help answer some questions",
+		"skills": "Highly proficient in Math, great team leader, works well independently",
+		"interests": ["Math", "Politics", "Chemistry"],
+		"education": "NC State Freshman",
+		"workplace": "Local University Bookstore",
+		"friends": ["Timothy Jackson", "Helium Jose", "Brenda Martin", "Jacquavius Coolidge", "Keshaw Lenning", "Maurice Tobias"],
+		"more info": "I知 looking forward to meeting professionals who can help guide me to a career path as I知 having trouble working that out"
+	},
+	{
+		"userID": "jlo78a04n",
+		"name": "Rishabh Patel",
+		"image": "",
+		"age": 17,
+		"bio": "My name is Rishabh and I知 a junior in high school from Raleigh, NC",
+		"skills": "Can read really fast, great public speaker, elite lacrosse player",
+		"interests": ["Lacrosse", "Space", "Engineering"],
+		"education": "Laucarence High School",
+		"workplace": "Work: N/A",
+		"friends": ["Timothy Jackson", "Helium Jose", "Brenda Martin", "Jacquavius Coolidge", "Keshaw Lenning", "Maurice Tobias"],
+		"more info": "My school doesn稚 really have many people interested in the same things I am, so I知 looking to find some people to just nerd out over things."
+	},
+	{
+		"userID": "mo7310cga7",
+		"name": "Madeline Perez",
+		"image": "",
+		"age": 21,
+		"bio": "Hi, I'm Madeline from North Carolina, and I'm looking to meet some new friends",
+		"skills": "World record jumproper, Good at math",
+		"interests": ["Math", "Engineering", "History"],
+		"education": "Cambridge University",
+		"workplace": "Intern at Google",
+		"friends": ["Timothy Jackson", "Helium Jose", "Brenda Martin", "Jacquavius Coolidge", "Keshaw Lenning", "Maurice Tobias"],
+		"more info": "I want to give back to the younger high schoolers looking to get into college to pay back the help I received from college students when I was a high schooler."
+	}
+]
