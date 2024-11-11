@@ -1,6 +1,7 @@
 # PackHacks // StudentConnect
 Names: Varun Unnithan, Pranav Neti, Anish Kristipati
 Code was produced wholly by us in a 24 hour session :)
+Devpost: https://devpost.com/software/student-connect-bgh6ie
 
 # External Libraries Used
 Apache Tomcat 9.0
